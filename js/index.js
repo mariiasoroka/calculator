@@ -29,5 +29,10 @@ function calculate() {
     display.value = eval(display.value).toFixed(3);
 }
 
+document.querySelector('.clear').addEventListener('click', clearResults);
+
+function clearResults() {
+    display.value = '';
+}
 
 
