@@ -1,5 +1,3 @@
-const link = document.querySelector('a');
-
 const display = document.querySelector('.display');
 
 document.querySelectorAll('.digits button')
